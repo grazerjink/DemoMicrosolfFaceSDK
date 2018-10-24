@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DetectFaceViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:SCREEN_BOUNDS];
+    self.window.backgroundColor = LIGHT_GRAY_COLOR;
+    
+    UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:[[DetectFaceViewController alloc]init]];
+    
+    self.window.rootViewController = navi;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

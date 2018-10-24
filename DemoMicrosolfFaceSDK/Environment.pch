@@ -1,0 +1,22 @@
+//
+//  Environment.pch
+//  DemoMircosoftFaceAPI
+//
+//  Created by Winson Mac on 10/19/18.
+//  Copyright © 2018 Winson Mac. All rights reserved.
+//
+
+#ifndef Environment_pch
+#define Environment_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Environment_pch */
+
+
+#import "Constants.h"
+#import "ContentManager.h"
+#import "BaseModel.h"
+#import "UIImage+Crop.h"
+#import "UIView+Coords.h"

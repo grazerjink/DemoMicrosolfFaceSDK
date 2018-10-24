@@ -8,24 +8,87 @@
 
 /* Begin PBXBuildFile section */
 		D14EE9002179976000BA7CC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D14EE8FF2179976000BA7CC8 /* AppDelegate.m */; };
-		D14EE9032179976000BA7CC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D14EE9022179976000BA7CC8 /* ViewController.m */; };
-		D14EE9062179976000BA7CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14EE9042179976000BA7CC8 /* Main.storyboard */; };
 		D14EE9082179976100BA7CC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14EE9072179976100BA7CC8 /* Assets.xcassets */; };
 		D14EE90B2179976100BA7CC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14EE9092179976100BA7CC8 /* LaunchScreen.storyboard */; };
 		D14EE90E2179976100BA7CC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D14EE90D2179976100BA7CC8 /* main.m */; };
+		D14EE91A217997C600BA7CC8 /* ContentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D14EE919217997C600BA7CC8 /* ContentManager.m */; };
+		D14EE91E217997D700BA7CC8 /* DetectFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D14EE91D217997D700BA7CC8 /* DetectFaceViewController.m */; };
+		D14EE9232179BA8300BA7CC8 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D14EE9222179BA8300BA7CC8 /* placeholder.jpg */; };
+		D14EE92D2179E01E00BA7CC8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D14EE9262179E01E00BA7CC8 /* Reachability.m */; };
+		D14EE92E2179E01E00BA7CC8 /* JKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D14EE92B2179E01E00BA7CC8 /* JKProgressHUD.m */; };
+		D14EE92F2179E01E00BA7CC8 /* JKPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = D14EE92C2179E01E00BA7CC8 /* JKPopup.m */; };
+		D14EE9312179EB6400BA7CC8 /* girl.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D14EE9302179EB6400BA7CC8 /* girl.jpeg */; };
+		D16214C6217ED13D0037FBB3 /* AccessoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D16214C5217ED13D0037FBB3 /* AccessoryModel.m */; };
+		D16214CD217EDD6C0037FBB3 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = D16214CC217EDD6C0037FBB3 /* UIImage+Crop.m */; };
+		D16214D0217F09C60037FBB3 /* UIView+Coords.m in Sources */ = {isa = PBXBuildFile; fileRef = D16214CE217F09C60037FBB3 /* UIView+Coords.m */; };
+		D1A74C05217DA8A70069F351 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1A74C04217DA8A70069F351 /* background.jpg */; };
+		D1A74C09217DB4F20069F351 /* FaceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A74C08217DB4F20069F351 /* FaceModel.m */; };
+		D1A74C0F217DBFEF0069F351 /* FaceLandmarkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A74C0E217DBFEF0069F351 /* FaceLandmarkModel.m */; };
+		D1A74C12217DC1B80069F351 /* FaceAttributeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A74C11217DC1B80069F351 /* FaceAttributeModel.m */; };
+		D1A74C15217DC2A50069F351 /* HeadPoseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A74C14217DC2A50069F351 /* HeadPoseModel.m */; };
+		D1A74C18217DC3B80069F351 /* FacialHairModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A74C17217DC3B80069F351 /* FacialHairModel.m */; };
+		D1A74C1B217DC4630069F351 /* EmotionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A74C1A217DC4630069F351 /* EmotionModel.m */; };
+		D1A74C1E217DC58E0069F351 /* LevelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A74C1D217DC58E0069F351 /* LevelModel.m */; };
+		D1A74C21217DC6A40069F351 /* MakeupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A74C20217DC6A40069F351 /* MakeupModel.m */; };
+		D1A74C24217DC6F80069F351 /* OcclusionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A74C23217DC6F80069F351 /* OcclusionModel.m */; };
+		D1A74C27217DC7760069F351 /* HairModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A74C26217DC7760069F351 /* HairModel.m */; };
+		D1A74C2A217DC7D60069F351 /* ColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A74C29217DC7D60069F351 /* ColorModel.m */; };
+		D1A74C2D217DCC3D0069F351 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A74C2C217DCC3D0069F351 /* BaseModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D14EE8FB2179976000BA7CC8 /* DemoMicrosolfFaceSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoMicrosolfFaceSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14EE8FE2179976000BA7CC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D14EE8FF2179976000BA7CC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D14EE9012179976000BA7CC8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D14EE9022179976000BA7CC8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D14EE9052179976000BA7CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D14EE9072179976100BA7CC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D14EE90A2179976100BA7CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D14EE90C2179976100BA7CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D14EE90D2179976100BA7CC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D14EE917217997C600BA7CC8 /* ContentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentManager.h; sourceTree = "<group>"; };
+		D14EE918217997C600BA7CC8 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		D14EE919217997C600BA7CC8 /* ContentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentManager.m; sourceTree = "<group>"; };
+		D14EE91B217997D700BA7CC8 /* Environment.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Environment.pch; sourceTree = "<group>"; };
+		D14EE91C217997D700BA7CC8 /* DetectFaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetectFaceViewController.h; sourceTree = "<group>"; };
+		D14EE91D217997D700BA7CC8 /* DetectFaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetectFaceViewController.m; sourceTree = "<group>"; };
+		D14EE9222179BA8300BA7CC8 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
+		D14EE9262179E01E00BA7CC8 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		D14EE9272179E01E00BA7CC8 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		D14EE9292179E01E00BA7CC8 /* JKProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKProgressHUD.h; sourceTree = "<group>"; };
+		D14EE92A2179E01E00BA7CC8 /* JKPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPopup.h; sourceTree = "<group>"; };
+		D14EE92B2179E01E00BA7CC8 /* JKProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKProgressHUD.m; sourceTree = "<group>"; };
+		D14EE92C2179E01E00BA7CC8 /* JKPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPopup.m; sourceTree = "<group>"; };
+		D14EE9302179EB6400BA7CC8 /* girl.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpeg; sourceTree = "<group>"; };
+		D16214C4217ED13D0037FBB3 /* AccessoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessoryModel.h; sourceTree = "<group>"; };
+		D16214C5217ED13D0037FBB3 /* AccessoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessoryModel.m; sourceTree = "<group>"; };
+		D16214CB217EDD6C0037FBB3 /* UIImage+Crop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Crop.h"; sourceTree = "<group>"; };
+		D16214CC217EDD6C0037FBB3 /* UIImage+Crop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Crop.m"; sourceTree = "<group>"; };
+		D16214CE217F09C60037FBB3 /* UIView+Coords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Coords.m"; sourceTree = "<group>"; };
+		D16214CF217F09C60037FBB3 /* UIView+Coords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Coords.h"; sourceTree = "<group>"; };
+		D1A74C04217DA8A70069F351 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../../../background.jpg; sourceTree = "<group>"; };
+		D1A74C07217DB4F20069F351 /* FaceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceModel.h; sourceTree = "<group>"; };
+		D1A74C08217DB4F20069F351 /* FaceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceModel.m; sourceTree = "<group>"; };
+		D1A74C0D217DBFEF0069F351 /* FaceLandmarkModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceLandmarkModel.h; sourceTree = "<group>"; };
+		D1A74C0E217DBFEF0069F351 /* FaceLandmarkModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceLandmarkModel.m; sourceTree = "<group>"; };
+		D1A74C10217DC1B80069F351 /* FaceAttributeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceAttributeModel.h; sourceTree = "<group>"; };
+		D1A74C11217DC1B80069F351 /* FaceAttributeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceAttributeModel.m; sourceTree = "<group>"; };
+		D1A74C13217DC2A50069F351 /* HeadPoseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadPoseModel.h; sourceTree = "<group>"; };
+		D1A74C14217DC2A50069F351 /* HeadPoseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadPoseModel.m; sourceTree = "<group>"; };
+		D1A74C16217DC3B80069F351 /* FacialHairModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacialHairModel.h; sourceTree = "<group>"; };
+		D1A74C17217DC3B80069F351 /* FacialHairModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacialHairModel.m; sourceTree = "<group>"; };
+		D1A74C19217DC4630069F351 /* EmotionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmotionModel.h; sourceTree = "<group>"; };
+		D1A74C1A217DC4630069F351 /* EmotionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmotionModel.m; sourceTree = "<group>"; };
+		D1A74C1C217DC58E0069F351 /* LevelModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LevelModel.h; sourceTree = "<group>"; };
+		D1A74C1D217DC58E0069F351 /* LevelModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LevelModel.m; sourceTree = "<group>"; };
+		D1A74C1F217DC6A40069F351 /* MakeupModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakeupModel.h; sourceTree = "<group>"; };
+		D1A74C20217DC6A40069F351 /* MakeupModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakeupModel.m; sourceTree = "<group>"; };
+		D1A74C22217DC6F80069F351 /* OcclusionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OcclusionModel.h; sourceTree = "<group>"; };
+		D1A74C23217DC6F80069F351 /* OcclusionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OcclusionModel.m; sourceTree = "<group>"; };
+		D1A74C25217DC7760069F351 /* HairModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HairModel.h; sourceTree = "<group>"; };
+		D1A74C26217DC7760069F351 /* HairModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HairModel.m; sourceTree = "<group>"; };
+		D1A74C28217DC7D60069F351 /* ColorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorModel.h; sourceTree = "<group>"; };
+		D1A74C29217DC7D60069F351 /* ColorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorModel.m; sourceTree = "<group>"; };
+		D1A74C2B217DCC3D0069F351 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		D1A74C2C217DCC3D0069F351 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +123,129 @@
 			children = (
 				D14EE8FE2179976000BA7CC8 /* AppDelegate.h */,
 				D14EE8FF2179976000BA7CC8 /* AppDelegate.m */,
-				D14EE9012179976000BA7CC8 /* ViewController.h */,
-				D14EE9022179976000BA7CC8 /* ViewController.m */,
-				D14EE9042179976000BA7CC8 /* Main.storyboard */,
+				D16214CA217EDD570037FBB3 /* Categories */,
+				D14EE9242179E01000BA7CC8 /* Libraries */,
+				D14EE9212179BA7A00BA7CC8 /* Resources */,
+				D14EE9162179979300BA7CC8 /* Manager */,
+				D1A74C06217DB4CF0069F351 /* Models */,
+				D14EE91F217997E800BA7CC8 /* Controllers */,
+				D14EE920217997FD00BA7CC8 /* Views */,
 				D14EE9072179976100BA7CC8 /* Assets.xcassets */,
 				D14EE9092179976100BA7CC8 /* LaunchScreen.storyboard */,
 				D14EE90C2179976100BA7CC8 /* Info.plist */,
 				D14EE90D2179976100BA7CC8 /* main.m */,
+				D14EE91B217997D700BA7CC8 /* Environment.pch */,
 			);
 			path = DemoMicrosolfFaceSDK;
+			sourceTree = "<group>";
+		};
+		D14EE9162179979300BA7CC8 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D14EE918217997C600BA7CC8 /* Constants.h */,
+				D14EE917217997C600BA7CC8 /* ContentManager.h */,
+				D14EE919217997C600BA7CC8 /* ContentManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		D14EE91F217997E800BA7CC8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D14EE91C217997D700BA7CC8 /* DetectFaceViewController.h */,
+				D14EE91D217997D700BA7CC8 /* DetectFaceViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D14EE920217997FD00BA7CC8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D14EE9212179BA7A00BA7CC8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D1A74C04217DA8A70069F351 /* background.jpg */,
+				D14EE9302179EB6400BA7CC8 /* girl.jpeg */,
+				D14EE9222179BA8300BA7CC8 /* placeholder.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D14EE9242179E01000BA7CC8 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				D14EE9282179E01E00BA7CC8 /* HUD */,
+				D14EE9252179E01E00BA7CC8 /* Reachability */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		D14EE9252179E01E00BA7CC8 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				D14EE9262179E01E00BA7CC8 /* Reachability.m */,
+				D14EE9272179E01E00BA7CC8 /* Reachability.h */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		D14EE9282179E01E00BA7CC8 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				D14EE9292179E01E00BA7CC8 /* JKProgressHUD.h */,
+				D14EE92A2179E01E00BA7CC8 /* JKPopup.h */,
+				D14EE92B2179E01E00BA7CC8 /* JKProgressHUD.m */,
+				D14EE92C2179E01E00BA7CC8 /* JKPopup.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		D16214CA217EDD570037FBB3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D16214CF217F09C60037FBB3 /* UIView+Coords.h */,
+				D16214CE217F09C60037FBB3 /* UIView+Coords.m */,
+				D16214CB217EDD6C0037FBB3 /* UIImage+Crop.h */,
+				D16214CC217EDD6C0037FBB3 /* UIImage+Crop.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D1A74C06217DB4CF0069F351 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D1A74C07217DB4F20069F351 /* FaceModel.h */,
+				D1A74C08217DB4F20069F351 /* FaceModel.m */,
+				D1A74C0D217DBFEF0069F351 /* FaceLandmarkModel.h */,
+				D1A74C0E217DBFEF0069F351 /* FaceLandmarkModel.m */,
+				D1A74C10217DC1B80069F351 /* FaceAttributeModel.h */,
+				D1A74C11217DC1B80069F351 /* FaceAttributeModel.m */,
+				D1A74C13217DC2A50069F351 /* HeadPoseModel.h */,
+				D1A74C14217DC2A50069F351 /* HeadPoseModel.m */,
+				D1A74C16217DC3B80069F351 /* FacialHairModel.h */,
+				D1A74C17217DC3B80069F351 /* FacialHairModel.m */,
+				D1A74C19217DC4630069F351 /* EmotionModel.h */,
+				D1A74C1A217DC4630069F351 /* EmotionModel.m */,
+				D1A74C1C217DC58E0069F351 /* LevelModel.h */,
+				D1A74C1D217DC58E0069F351 /* LevelModel.m */,
+				D1A74C1F217DC6A40069F351 /* MakeupModel.h */,
+				D1A74C20217DC6A40069F351 /* MakeupModel.m */,
+				D1A74C22217DC6F80069F351 /* OcclusionModel.h */,
+				D1A74C23217DC6F80069F351 /* OcclusionModel.m */,
+				D1A74C25217DC7760069F351 /* HairModel.h */,
+				D1A74C26217DC7760069F351 /* HairModel.m */,
+				D1A74C28217DC7D60069F351 /* ColorModel.h */,
+				D1A74C29217DC7D60069F351 /* ColorModel.m */,
+				D16214C4217ED13D0037FBB3 /* AccessoryModel.h */,
+				D16214C5217ED13D0037FBB3 /* AccessoryModel.m */,
+				D1A74C2B217DCC3D0069F351 /* BaseModel.h */,
+				D1A74C2C217DCC3D0069F351 /* BaseModel.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +306,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D14EE90B2179976100BA7CC8 /* LaunchScreen.storyboard in Resources */,
+				D14EE9232179BA8300BA7CC8 /* placeholder.jpg in Resources */,
+				D1A74C05217DA8A70069F351 /* background.jpg in Resources */,
 				D14EE9082179976100BA7CC8 /* Assets.xcassets in Resources */,
-				D14EE9062179976000BA7CC8 /* Main.storyboard in Resources */,
+				D14EE9312179EB6400BA7CC8 /* girl.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,23 +320,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D14EE9032179976000BA7CC8 /* ViewController.m in Sources */,
+				D1A74C0F217DBFEF0069F351 /* FaceLandmarkModel.m in Sources */,
+				D1A74C12217DC1B80069F351 /* FaceAttributeModel.m in Sources */,
+				D1A74C21217DC6A40069F351 /* MakeupModel.m in Sources */,
+				D14EE91E217997D700BA7CC8 /* DetectFaceViewController.m in Sources */,
+				D1A74C15217DC2A50069F351 /* HeadPoseModel.m in Sources */,
+				D14EE91A217997C600BA7CC8 /* ContentManager.m in Sources */,
+				D1A74C27217DC7760069F351 /* HairModel.m in Sources */,
 				D14EE90E2179976100BA7CC8 /* main.m in Sources */,
+				D16214D0217F09C60037FBB3 /* UIView+Coords.m in Sources */,
 				D14EE9002179976000BA7CC8 /* AppDelegate.m in Sources */,
+				D1A74C2A217DC7D60069F351 /* ColorModel.m in Sources */,
+				D14EE92D2179E01E00BA7CC8 /* Reachability.m in Sources */,
+				D14EE92F2179E01E00BA7CC8 /* JKPopup.m in Sources */,
+				D1A74C18217DC3B80069F351 /* FacialHairModel.m in Sources */,
+				D1A74C24217DC6F80069F351 /* OcclusionModel.m in Sources */,
+				D16214CD217EDD6C0037FBB3 /* UIImage+Crop.m in Sources */,
+				D1A74C1E217DC58E0069F351 /* LevelModel.m in Sources */,
+				D1A74C1B217DC4630069F351 /* EmotionModel.m in Sources */,
+				D16214C6217ED13D0037FBB3 /* AccessoryModel.m in Sources */,
+				D1A74C09217DB4F20069F351 /* FaceModel.m in Sources */,
+				D1A74C2D217DCC3D0069F351 /* BaseModel.m in Sources */,
+				D14EE92E2179E01E00BA7CC8 /* JKProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D14EE9042179976000BA7CC8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D14EE9052179976000BA7CC8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D14EE9092179976100BA7CC8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,15 +475,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L53ED9PFHY;
+				GCC_PREFIX_HEADER = DemoMicrosolfFaceSDK/Environment.pch;
 				INFOPLIST_FILE = DemoMicrosolfFaceSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.winsonmac.DemoMicrosolfFaceSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,15 +496,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L53ED9PFHY;
+				GCC_PREFIX_HEADER = DemoMicrosolfFaceSDK/Environment.pch;
 				INFOPLIST_FILE = DemoMicrosolfFaceSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.winsonmac.DemoMicrosolfFaceSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
